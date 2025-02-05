@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-05T06:45:56 IST" name="Suite" finished-at="2025-02-05T06:49:42 IST" duration-ms="226295">
+    <groups>
+    </groups>
+    <test started-at="2025-02-05T06:45:56 IST" name="TestHotel" finished-at="2025-02-05T06:49:42 IST" duration-ms="226295">
+      <class name="testCases.TC02_Login">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC02_Login@231f98ef]" started-at="2025-02-05T06:46:24 IST" name="setup" finished-at="2025-02-05T06:46:32 IST" duration-ms="7860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="log()[pri:0, instance:testCases.TC02_Login@231f98ef]" started-at="2025-02-05T06:46:32 IST" name="log" finished-at="2025-02-05T06:46:36 IST" duration-ms="4181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- log -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC02_Login@231f98ef]" started-at="2025-02-05T06:46:36 IST" name="tearDown" finished-at="2025-02-05T06:46:37 IST" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC02_Login -->
+      <class name="testCases.TC05_BookingConfim">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC05_BookingConfim@7d9d0818]" started-at="2025-02-05T06:47:51 IST" name="setup" finished-at="2025-02-05T06:47:58 IST" duration-ms="7513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="confirm()[pri:0, instance:testCases.TC05_BookingConfim@7d9d0818]" started-at="2025-02-05T06:47:58 IST" name="confirm" finished-at="2025-02-05T06:48:39 IST" duration-ms="41055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC05_BookingConfim@7d9d0818]" started-at="2025-02-05T06:48:39 IST" name="tearDown" finished-at="2025-02-05T06:48:39 IST" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC05_BookingConfim -->
+      <class name="testCases.TC08_LogOut">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC08_LogOut@2b40ff9c]" started-at="2025-02-05T06:49:28 IST" name="setup" finished-at="2025-02-05T06:49:35 IST" duration-ms="7438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="log()[pri:0, instance:testCases.TC08_LogOut@2b40ff9c]" started-at="2025-02-05T06:49:35 IST" name="log" finished-at="2025-02-05T06:49:40 IST" duration-ms="4731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- log -->
+        <test-method signature="log1()[pri:0, instance:testCases.TC08_LogOut@2b40ff9c]" started-at="2025-02-05T06:49:40 IST" name="log1" finished-at="2025-02-05T06:49:40 IST" duration-ms="762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- log1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC08_LogOut@2b40ff9c]" started-at="2025-02-05T06:49:40 IST" name="tearDown" finished-at="2025-02-05T06:49:42 IST" duration-ms="1765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC08_LogOut -->
+      <class name="testCases.TC01_Registration">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC01_Registration@6e9a5ed8]" started-at="2025-02-05T06:45:56 IST" name="setup" finished-at="2025-02-05T06:46:04 IST" duration-ms="8257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="register()[pri:0, instance:testCases.TC01_Registration@6e9a5ed8]" started-at="2025-02-05T06:46:04 IST" name="register" finished-at="2025-02-05T06:46:24 IST" duration-ms="19594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC01_Registration@6e9a5ed8]" started-at="2025-02-05T06:46:24 IST" name="tearDown" finished-at="2025-02-05T06:46:24 IST" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC01_Registration -->
+      <class name="testCases.TC03_SearchHotel">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC03_SearchHotel@7c137fd5]" started-at="2025-02-05T06:46:37 IST" name="setup" finished-at="2025-02-05T06:46:44 IST" duration-ms="7734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="search()[pri:0, instance:testCases.TC03_SearchHotel@7c137fd5]" started-at="2025-02-05T06:46:44 IST" name="search" finished-at="2025-02-05T06:47:10 IST" duration-ms="25623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC03_SearchHotel@7c137fd5]" started-at="2025-02-05T06:47:10 IST" name="tearDown" finished-at="2025-02-05T06:47:10 IST" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC03_SearchHotel -->
+      <class name="testCases.TC04_BookHotel">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC04_BookHotel@183ec003]" started-at="2025-02-05T06:47:10 IST" name="setup" finished-at="2025-02-05T06:47:18 IST" duration-ms="7793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="book()[pri:0, instance:testCases.TC04_BookHotel@183ec003]" started-at="2025-02-05T06:47:18 IST" name="book" finished-at="2025-02-05T06:47:50 IST" duration-ms="32509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- book -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC04_BookHotel@183ec003]" started-at="2025-02-05T06:47:50 IST" name="tearDown" finished-at="2025-02-05T06:47:51 IST" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC04_BookHotel -->
+      <class name="testCases.TC07_ChangePassword">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC07_ChangePassword@451001e5]" started-at="2025-02-05T06:49:09 IST" name="setup" finished-at="2025-02-05T06:49:17 IST" duration-ms="7606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="changepass()[pri:0, instance:testCases.TC07_ChangePassword@451001e5]" started-at="2025-02-05T06:49:17 IST" name="changepass" finished-at="2025-02-05T06:49:27 IST" duration-ms="10345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changepass -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC07_ChangePassword@451001e5]" started-at="2025-02-05T06:49:27 IST" name="tearDown" finished-at="2025-02-05T06:49:28 IST" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC07_ChangePassword -->
+      <class name="testCases.TC06_BookedIternary">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC06_BookedIternary@221a3fa4]" started-at="2025-02-05T06:48:39 IST" name="setup" finished-at="2025-02-05T06:48:47 IST" duration-ms="7617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="iternary()[pri:0, instance:testCases.TC06_BookedIternary@221a3fa4]" started-at="2025-02-05T06:48:47 IST" name="iternary" finished-at="2025-02-05T06:49:09 IST" duration-ms="22000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iternary -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC06_BookedIternary@221a3fa4]" started-at="2025-02-05T06:49:09 IST" name="tearDown" finished-at="2025-02-05T06:49:09 IST" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC06_BookedIternary -->
+    </test> <!-- TestHotel -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite"  thread-count="5"  parallel="tests">
+
+<listeners>
+<listener class-name="utilities.ExtentReportManager"/>
+</listeners>
+
+  <test name="TestHotel">
+    <classes>
+      <class name="testCases.TC01_Registration"/>
+      <class name="testCases.TC02_Login"/>
+      <class name="testCases.TC03_SearchHotel"/>
+      <class name="testCases.TC04_BookHotel"/>
+      <class name="testCases.TC05_BookingConfim"/>
+      <class name="testCases.TC06_BookedIternary"/>
+      <class name="testCases.TC07_ChangePassword"/>
+      <class name="testCases.TC08_LogOut"/>
+      
+    </classes>
+  </test> <!-- TestHotel -->
+  
+  <test  name="TestHotel2">
+    <classes>
+      <class name="testCases.TC01_Registration"/>
+      <class name="testCases.TC02_Login"/>
+      <class name="testCases.TC03_SearchHotel"/>
+      <class name="testCases.TC04_BookHotel"/>
+      <class name="testCases.TC05_BookingConfim"/>
+      <class name="testCases.TC06_BookedIternary"/>
+      <class name="testCases.TC07_ChangePassword"/>
+      <class name="testCases.TC08_LogOut"/>
+      
+    </classes>
+  </test> <!-- TestHotel -->
+</suite> <!-- Suite -->
